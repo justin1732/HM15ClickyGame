@@ -1,0 +1,88 @@
+[
+    {
+        "id": 1,
+        "count": 0,
+        "name": "Ashton",
+        "image": "./images/ashton.jpg"
+    },
+
+    {
+        "id": 2,
+        "count": 0,
+        "name": "Claude",
+        "image": "./images/claude.png"
+    },
+
+    {
+        "id": 3,
+        "count": 0,
+        "name": "Dias",
+        "image": "./images/Dias.jpg"
+    },
+
+    {
+        "id": 4,
+        "count": 0,
+        "name": "Edge",
+        "image": "./images/Edge.jpg"
+    },
+
+    {
+        "id": 5,
+        "count": 0,
+        "name": "Fayt",
+        "image": "./images/fayt.jpg"
+    },
+    {
+        "id": 6,
+        "count": 0,
+        "name": "Fidel",
+        "image": "./images/fidel.jpg"
+    },
+    {
+        "id": 7,
+        "count": 0,
+        "name": "Illa",
+        "image": "./images/illa.png"
+    },
+
+    {
+        "id": 8,
+        "count": 0,
+        "name": "Miki",
+        "image": "./images/miki.jpg"
+    },
+
+    {
+        "id": 9,
+        "count": 0,
+        "name": "Nel",
+        "image": "./images/nel.jpg"
+    },
+
+    {
+        "id": 10,
+        "count": 0,
+        "name": "The Real Rena",
+        "image": "./images/ocrena.jpg"
+    },
+
+    {
+        "id": 11,
+        "count": 0,
+        "name": "Rena",
+        "image": "./images/Rena.jpg"
+    },
+    {
+        "id": 12,
+        "count": 0,
+        "name": "Roddick",
+        "image": "./images/roddick.png"
+    },
+    {
+        "id": 13,
+        "count": 0,
+        "name": "Ronyx",
+        "image": "./images/Ronyx.jpg"
+    }
+]
