@@ -1,5 +1,6 @@
 import React from 'react';
-import Alert from 'react-bootstrap/lib/Alert';
+import './Alerts.css';
+import Alert from 'react-bootstrap/Alert';
 
 const Alerts = props => (
     <Alert bsStyle={`${props.alertType}`}>

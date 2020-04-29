@@ -1,8 +1,8 @@
 .header {
     background-color: lightskyblue;
-    background-image: url(../../../public/images/starrysky.jpg);
+    background-image: url(/images/starrysky.jpg);
     background-repeat: repeat;
-    background-size: 8%;
+    background-size: auto;
     color: lightskyblue;
     padding-top: 25px;
     padding-bottom: 25px;
