@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Header from '../Header/Header.js';
-import Alerts from '../Alerts/Alerts.js';
-import Score from '../Score/Score.js';
-import Main from '../Main/Main.js';
-import Footer from '../Footer/Footer.js';
-import Card from '../Card/Card.js';
-import cards from '../../assets/json/cards.json';
+import Header from '../src/components/Header/Header.js';
+import Alerts from '../src/components/Alerts/Alerts.js';
+import Score from '../src/components/Score/Score.js';
+import Main from '../src/components/Main/Main.js';
+import Footer from '../src/components/Footer/Footer.js';
+import Card from '../src/components/Card/Card.js';
+import cards from './assets/json/cards.json';
 
 class App extends Component {
 state= {
