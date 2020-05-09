@@ -1,9 +1,12 @@
 * {
-  font-family: Georgia, 'Times New Roman', Times, serif
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+
 }
 
 .App {
   text-align: center;
+  background-color: aqua;
 }
 
 /* .App-logo {
