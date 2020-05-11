@@ -22,7 +22,11 @@
   },
   "dependencies": {
     "@material-ui/core": "^4.9.13",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
     "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
     "express": "^4.16.3",
     "express-session": "^1.17.1",
     "if-env": "^1.0.4",
@@ -30,18 +34,15 @@
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "prop-types": "^15.7.2",
-    "sequelize": "^4.41.2",
-    "unirest": "^0.6.0", 
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "bootstrap": "^4.4.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "reactstrap": "^8.4.1",
+    "sequelize": "^4.41.2",
+    "unirest": "^0.6.0"
   },
- "eslintConfig": {
+  "eslintConfig": {
     "extends": "react-app"
   },
   "browserslist": {
