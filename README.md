@@ -1,68 +1,45 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Clicky Game in React JS
 
-## Available Scripts
+## Matching up Star Ocean Characters
 
-In the project directory, you can run:
+This was the second-to-last individual project for the University of Denver FullStack Coding Bootcamp.
 
-### `npm start`
+This app uses React JS and Heroku Deployment to create "in state objects" that are randomly assigned value and look like cards. The user then clicks on the cards to generate points and try to "win" by selecting all the individual cards. If the user fails in that task, the score gets reset to zero and the user getsto try again. This project again used Star Ocean characters and themes to generate a rather unique look and feel.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Starting the app locally
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+For a local version, I recommend using Visual Studio Code. Navigate over to my GitHub repo, click clone, and be sure to type in the following below:
+git clone
 
-### `npm test`
+Then type:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm install
 
-### `npm run build`
+This should install node modules within the server and the client folder.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+After both installations complete, run the following command in your terminal:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
 
-### `npm run eject`
+For remote viewing, my app is on Heroku at:
+https://justintuckerstaroceanclicky.herokuapp.com/
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Finally, my repo can be found at:
+https://github.com/justin1732/HM15ClickyGame
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Using this application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Click on different characters to try and click on all of them without repeating (different pictures are fine). If you don't, you'll have to repeat the process all over again. You can see your high score in the window above.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Technologies Used
 
-## Learn More
+This application follows MERN deployment principles with MVP file and folder structuring. This application relies upon React JS connected through Heroku for deployment. This app relies heavily on JSON and JSON rendering to render the objects and communicate with the local database. Other dependencies include React Bootstrap for assistance in rendering and organization..
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contact Information
+I am available to be found at justteach17@gmail.com and my website is justin1732.github.io 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
